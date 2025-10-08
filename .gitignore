@@ -1,12 +1,24 @@
-# Gradle files
-.gradle/
-build/
+# Dependencies
+node_modules/
+package-lock.json
 
-# Local configuration file (sdk path, etc)
-local.properties
+# Build output
+build/
+dist/
 
 # Log/OS Files
 *.log
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+
+# Gradle files
+.gradle/
+
+# Local configuration file (sdk path, etc)
+local.properties
 
 # Android Studio generated files and folders
 captures/
@@ -17,8 +29,6 @@ captures/
 output-metadata.json
 
 # IntelliJ
-*.iml
-.idea/
 misc.xml
 deploymentTargetDropDown.xml
 render.experimental.xml
